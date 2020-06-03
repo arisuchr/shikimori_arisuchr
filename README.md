@@ -1,2 +1,2 @@
 # shikimori_arisuchr
-Nothing interesting.
+Static files for [my page on Shikimori](https://shikimori.one/arisuchr).
