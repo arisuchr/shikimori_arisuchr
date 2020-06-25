@@ -1,2 +1,3 @@
-# shikimori_arisuchr
-Static files for [my page on Shikimori](https://shikimori.one/arisuchr).
+# What is this?
+This repository-kun contains static files for small flex menu on my Shikimori page.
+You can visit it [here](https://shikimori.one/arisuchr)!
