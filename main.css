@@ -52,7 +52,8 @@ body {
 .l-top_menu-v2 .global-search .search-results .nothing_found,
 .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item,
 .l-top_menu-v2 .global-search .search-results .search-mode {
-  border-top: 1px solid rgba(204, 42, 58, 0.2);
+  border-bottom: 1px solid rgba(204, 42, 58, 0.2);
+  border-top: none;
 }
 .l-top_menu-v2.is-search-focus .global-search .search-marker {
   color: white;
@@ -77,5 +78,5 @@ body {
   width: 100%;
 }
 .x1200 .l-page {
-	margin-top: 50px;
+  margin-top: 50px;
 }
