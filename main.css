@@ -65,6 +65,9 @@ body {
 .l-top_menu-v2 .global-search .clear {
   color: var(--grey);
 }
+.l-top_menu-v2 .global-search .clear:active {
+  color: white;
+}
 .l-top_menu-v2 .global-search input,
 .l-top_menu-v2 .global-search .search-results {
   background: var(--gray);
@@ -79,4 +82,53 @@ body {
 }
 .x1200 .l-page {
   margin-top: 50px;
+}
+.b-ajax:before {
+  background: rgba(0, 0, 0, 0.5);
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+.b-db_entry-variant-list_item {
+  border-top: 1px dashed black;
+}
+.l-top_menu-v2 .global-search .search-results .nothing_found.active + .b-db_entry-variant-list_item,
+.l-top_menu-v2 .global-search .search-results .nothing_found.active + .search-mode,
+.l-top_menu-v2 .global-search .search-results .nothing_found:focus + .b-db_entry-variant-list_item,
+.l-top_menu-v2 .global-search .search-results .nothing_found:focus + .search-mode,
+.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active + .b-db_entry-variant-list_item,
+.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active + .search-mode,
+.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus + .b-db_entry-variant-list_item,
+.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus + .search-mode,
+.l-top_menu-v2 .global-search .search-results .search-mode.active + .b-db_entry-variant-list_item,
+.l-top_menu-v2 .global-search .search-results .search-mode.active + .search-mode,
+.l-top_menu-v2 .global-search .search-results .search-mode:focus + .b-db_entry-variant-list_item,
+.l-top_menu-v2 .global-search .search-results .search-mode:focus + .search-mode {
+  border-top-color: #ff0023;
+}
+.b-db_entry-variant-list_item > .info .line .key {
+  color: var(--grey);
+}
+.b-tag {
+  color: var(--pink);
+  border-bottom: 1px dashed black;
+}
+.b-anime_status_tag.episode,
+.b-anime_status_tag.studio {
+  background-color: #222222;
+  border: 1px solid var(--pink);
+  border-radius: 10px;
+  color: var(--grey);
+}
+body[data-localized_names="ru"] .name-en {
+  display: block;
+  clear: right;
+}
+.name-en,
+.name-ru {
+  color: #faebb1;
 }
