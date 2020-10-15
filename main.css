@@ -21,14 +21,27 @@ body {
     transform: rotate(180deg);
   }
 }
+@media screen and (min-width: 1024px) {
+  .l-top_menu-v2 .global-search .search-results .search-mode:hover:before {
+    background: rgba(255, 107, 129, 0.5);
+  }
+}
 .l-top_menu-v2,
-.l-top_menu-v2 .global-search .search-results .nothing_found.active::before,
-.l-top_menu-v2 .global-search .search-results .nothing_found:focus::before,
-.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active::before,
-.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus::before,
-.l-top_menu-v2 .global-search .search-results .search-mode.active::before,
-.l-top_menu-v2 .global-search .search-results .search-mode:focus::before {
+.l-top_menu-v2 .global-search .search-results .nothing_found.active:before,
+.l-top_menu-v2 .global-search .search-results .nothing_found:focus:before,
+.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active:before,
+.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus:before,
+.l-top_menu-v2 .global-search .search-results .search-mode.active:before,
+.l-top_menu-v2 .global-search .search-results .search-mode:focus:before {
   background: var(--pink);
+}
+.l-top_menu-v2 .global-search .search-results .nothing_found.active,
+.l-top_menu-v2 .global-search .search-results .nothing_found:focus,
+.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active,
+.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus,
+.l-top_menu-v2 .global-search .search-results .search-mode.active,
+.l-top_menu-v2 .global-search .search-results .search-mode:focus {
+  border-top-color: rgba(255, 107, 129, 0.7);
 }
 .l-top_menu-v2.is-search-focus .global-search .search-marker {
   color: white;
