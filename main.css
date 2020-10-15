@@ -41,7 +41,18 @@ body {
 .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus,
 .l-top_menu-v2 .global-search .search-results .search-mode.active,
 .l-top_menu-v2 .global-search .search-results .search-mode:focus {
+  background: -webkit-gradient(linear, right top, left top, from(rgba(204, 42, 58, 0.2)),
+                                                            to(rgba(204, 42, 58, 0))), rgba(204, 42, 58, 0.01);
+  background: -webkit-linear-gradient(right, rgba(204, 42, 58, 0.2) 0%, 
+                                             rgba(204, 42, 58, 0) 100%), rgba(204, 42, 58, 0.01);
+  background: linear-gradient(270deg, rgba(204, 42, 58, 0.2) 0%, 
+                                      rgba(204, 42, 58, 0) 100%), rgba(204, 42, 58, 0.01);
   border-top-color: rgba(255, 107, 129, 0.7);
+}
+.l-top_menu-v2 .global-search .search-results .nothing_found,
+.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item,
+.l-top_menu-v2 .global-search .search-results .search-mode {
+  border-top: 1px solid rgba(204, 42, 58, 0.2);
 }
 .l-top_menu-v2.is-search-focus .global-search .search-marker {
   color: white;
@@ -49,7 +60,8 @@ body {
 .search-marker,
 .l-top_menu-v2 .global-search input,
 .l-top_menu-v2 .global-search .search-results .search-mode, 
-.l-top_menu-v2 .global-search .search-results .nothing_found{
+.l-top_menu-v2 .global-search .search-results .nothing_found,
+.l-top_menu-v2 .global-search .clear {
   color: var(--grey);
 }
 .l-top_menu-v2 .global-search input,
