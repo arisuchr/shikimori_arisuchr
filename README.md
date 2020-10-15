@@ -1,3 +1,2 @@
-# What is this?
-This repository-kun contains static files for small flex menu on my Shikimori page.
-You can visit it [here](https://shikimori.one/arisuchr)!
+# About this repository
+This repository contains all style files for my page on Shikimori. [You can check the results right now~](https://shikimori.one/arisuchr)
