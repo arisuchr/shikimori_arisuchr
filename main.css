@@ -38,11 +38,15 @@ body {
                                         rgba(204, 42, 58, 0) 100%), rgba(204, 42, 58, 0.01);
     border-top-color: rgba(255, 107, 129, 0.7);
   }
-  .l-top_menu-v2 .global-search .search-results:after,
-  .l-top_menu-v2 .global-search .search-results:before {
+  .l-top_menu-v2 .global-search .search-results:after {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(#000000));
     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #000000 100%);
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  }
+  .l-top_menu-v2 .global-search .search-results:before {
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(rgba(0, 0, 0, 0)));
+    background: -webkit-linear-gradient(top, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
   }
 }
 .l-top_menu-v2,
