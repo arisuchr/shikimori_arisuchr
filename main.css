@@ -20,6 +20,10 @@ body {
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
   }
+  .l-top_menu-v2 .submenu>a:hover {
+  	background: #2d2d2d;
+    color: var(--grey);
+  }
 }
 @media screen and (min-width: 1024px) {
   .l-top_menu-v2 .global-search .search-results .search-mode:hover:before {
@@ -148,4 +152,8 @@ body[data-localized_names="ru"] .name-en {
 .name-en,
 .name-ru {
   color: #faebb1;
+}
+.l-top_menu-v2 .submenu {
+  background: var(--gray);
+  border-radius: 0 0 10px 10px;
 }
