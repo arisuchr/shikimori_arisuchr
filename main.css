@@ -1,0 +1,53 @@
+html {
+  --pink: #ff6b81;
+  --grey: #d9d9d9;
+  --gray: #3e3e3e;
+}
+body { 
+  background: url('https://shikimori.one/assets/background/pink_rice.png') repeat;
+  background-size: contain;
+}
+@media screen and (min-width: 768px) {
+  .l-top_menu-v2 .menu-dropdown .submenu-triangle:after {
+    -webkit-transition: -webkit-transform .3s ease-out;
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+    
+  }
+  .l-top_menu-v2 .menu-dropdown.active .submenu-triangle:after {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+.l-top_menu-v2,
+.l-top_menu-v2 .global-search .search-results .nothing_found.active::before,
+.l-top_menu-v2 .global-search .search-results .nothing_found:focus::before,
+.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active::before,
+.l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus::before,
+.l-top_menu-v2 .global-search .search-results .search-mode.active::before,
+.l-top_menu-v2 .global-search .search-results .search-mode:focus::before {
+  background: var(--pink);
+}
+.l-top_menu-v2.is-search-focus .global-search .search-marker {
+  color: white;
+}
+.search-marker,
+.l-top_menu-v2 .global-search input,
+.l-top_menu-v2 .global-search .search-results .search-mode, 
+.l-top_menu-v2 .global-search .search-results .nothing_found{
+  color: var(--grey);
+}
+.l-top_menu-v2 .global-search input,
+.l-top_menu-v2 .global-search .search-results {
+  background: var(--gray);
+}
+.l-top_menu-v2 .global-search .search-results {
+  border-radius: 0 0 2px 2px;
+}
+.l-top_menu-v2 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
