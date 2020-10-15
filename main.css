@@ -74,6 +74,14 @@ body {
 .l-top_menu-v2 .global-search .clear {
   color: var(--grey);
 }
+.submenu-triangle:after,
+.icon-profile:before,
+.forum:before {
+  color: var(--grey);
+}
+.menu-icon:before {
+  color: unset;
+}
 .l-top_menu-v2 .global-search .clear:active {
   color: white;
 }
